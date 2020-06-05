@@ -13,9 +13,8 @@ public class EquilateralTriangleTest {
         double intendedBase = 8;
 
         EquilateralTriangle triangle = new EquilateralTriangle();
-        // TODO FOR HOMEWORK: Uncomment the lines below when EquilateralTriangle.java is complete
-//        triangle.setBase(intendedBase);
-//        Assert.assertEquals(triangle.getBase(), intendedBase);
+        triangle.setBase(intendedBase);
+        Assert.assertEquals(triangle.getBase(), intendedBase);
     }
 
     /**
@@ -26,9 +25,8 @@ public class EquilateralTriangleTest {
         double intendedBase = -4;
 
         EquilateralTriangle triangle = new EquilateralTriangle();
-        // TODO FOR HOMEWORK: Uncomment the lines below when EquilateralTriangle.java is complete
-//        triangle.setBase(intendedBase);
-//        Assert.assertEquals(triangle.getBase(), 0.0);
+        triangle.setBase(intendedBase);
+        Assert.assertEquals(triangle.getBase(), 0.0);
     }
 
     /**
@@ -39,9 +37,8 @@ public class EquilateralTriangleTest {
         double base = 5;
         double height = Math.sqrt(3) * base / 2;
         EquilateralTriangle triangle = new EquilateralTriangle();
-        // TODO FOR HOMEWORK: Uncomment the lines below when EquilateralTriangle.java is complete
-//        triangle.setBase(base);
-//        Assert.assertEquals(triangle.area(), (base * height)/2);
+        triangle.setBase(base);
+        Assert.assertEquals(triangle.area(), (base * height)/2);
     }
 
     /**
@@ -51,8 +48,7 @@ public class EquilateralTriangleTest {
     public void testTrianglePerimeter() {
         double base = 9;
         EquilateralTriangle triangle = new EquilateralTriangle();
-        // TODO FOR HOMEWORK: Uncomment the lines below when Rectangle.java is complete
-//        triangle.setBase(base);
-//        Assert.assertEquals(triangle.perimeter(), 3 * base);
+        triangle.setBase(base);
+        Assert.assertEquals(triangle.perimeter(), 3 * base);
     }
 }

@@ -1,8 +1,8 @@
 TODO HOMEWORK CHECKLIST:
 PROGRAMMING TASKS
     Square.java
-        [ ] Correct the setSide method
-        [ ] Fix the main method
+        [X] Correct the setSide method
+        [X] Fix the main method
     Rectangle.java
         [ ] Update both the set method for rectangle like you did for square
         [ ] Write the setters for the Rectangle Class
